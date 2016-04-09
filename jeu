@@ -1,1 +1,8 @@
+import java.util.Random;
 
+public class jeu {
+  static void ligne() {
+    Random r = new Random()
+    
+    for(i = 0; i < 14; i++) {
+      
