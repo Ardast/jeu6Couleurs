@@ -547,7 +547,7 @@ public class Board {
 				}
 		}
 	}
-	public void getVoisins(Player player) {	// Obtiens tous les voisins du player de la couleur sélectionnée et en change la couleur
+	public void getVoisins(Player player) {	// Obtiens tous les voisins du territoire du joueur  et donne l’appartenance au joueur des cellules  de la même couleur que la couleur de la cellule
 		Cell[][] cells = this.cells;
 		for (int i=0; i<this.cells.length; i++) {
 			for (int j=0; j<this.cells.length; j++) {
